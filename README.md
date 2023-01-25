@@ -3,10 +3,11 @@ For this project I was in charge of developing a landing page for RPA-Works, a c
 The order was made by [Efecto Digital](https://efectodigital.com.ar/).
 
 ## Technologies
-- PHP.
-- HTML
-- Javascript.
+- HTML.
 - Vanilla CSS.
+- PHP.
+- PHPMailer.
+- Javascript.
 - Swiper Js.
 - Google recaptcha
 
