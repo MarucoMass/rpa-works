@@ -1,16 +1,16 @@
 # RPA-Works
-Para este proyecto estuve a cargo del desarrollo de una landing page para RPA-Works
+For this project I was in charge of developing a landing page for RPA-Works
 
-## Tecnologías
+## Technologies
 - PHP.
 - HTML
 - Javascript.
-- Vanilla CSS para dar estilo al proyecto.
+- Vanilla CSS.
 - Swiper Js.
 
 ### Deploy
 https://rpa-works.com/
 
-### Autor: Mario Massonnat - [MarucoMass](https://github.com/MarucoMass)
+### Author: Mario Massonnat - [MarucoMass](https://github.com/MarucoMass)
 
 ### 2023 
