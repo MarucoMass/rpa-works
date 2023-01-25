@@ -6,8 +6,7 @@ Para este proyecto estuve a cargo del desarrollo de una landing page para RPA-Wo
 - HTML
 - Javascript.
 - Vanilla CSS para dar estilo al proyecto.
-- Swiper Js
-- Sweetalert2. 
+- Swiper Js.
 
 ### Deploy
 https://rpa-works.com/
