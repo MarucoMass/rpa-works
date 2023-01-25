@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/swiper.css">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="icon" href="./img/Logo RPA.png" type="image/png">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <title>RPA Works</title>
+</head>
+<body>
+    <!-- inicio header -->
+    <header class="header">
+        <div class="header__section">
+            <div class="header__logo"><img src="./img/Logo RPA.png" alt="logo"></div>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item"><a href="#ofrecemos">¿Qué ofrecemos?</a></li>
+                    <li class="header__item"><a href="#beneficios">Beneficios</a></li>
+                    <!-- <li class="header__item"><a href="#equipo">Equipo</a></li> -->
+                    <!-- <li class="header__item"><a href="#clientes">Nuestros clientes</a></li> -->
+                    <li class="header__item"><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-burguer"><div class="bar"></div></div>
+        </div>
+    </header>
+    <!-- fin header -->
+
+    <!-- inicio main -->
+    <main class="main">
+        <!-- <a href="" class="main__chat"><img src="./img/whatsapp-color.svg" alt="logo whatsapp"></a> -->
+
+        <section class="hero">
+            <div class="hero__content">
+                <p class="hero__content--p">Ahorrá tiempo, esfuerzos y errores.</p>
+                <h1 class="hero__content--title">Robots de software</h1>
+                <h2 class="hero__content--subtitle">para que no tengas que</h2>
+                <h2 class="hero__content--subtitle">trabajar como uno.</h2>
+                <a href="#contacto" class="hero__content--btn btn">Contactanos</a>
+            </div>
+        </section>
+
+        <section class="container contacto" id="contacto">
+            <div class="container__content">
+                <div class="container__data">
+                    <h2 class="container__title">RPA (Robotic Process Automation)</h2>
+                    <p class="container__paragraph">Se trata de una tecnología en la que se desarrollan robots de software, los cuales interactúan con los distintos sistemas de información de la organización, efectuando las tareas y actividades que realizan los seres humanos, especialmente aquellas que son repetitivas y necesarias pero que no aportan valor al negocio.</p>
+                </div>
+                <div class="container__form">
+                    <form action="formulario.php" method="post">
+                        <input type="text" name="name" id="name" placeholder="Nombre y apellido" required>
+                        <input type="number" name="phone" id="phone" placeholder="Teléfono" required>
+                        <input type="email" name="email" id="email" placeholder="Mail" required>
+                        <input type="text" name="company" id="company" placeholder="Empresa" required>
+                        <div class="g-recaptcha" data-sitekey="6Lc0gxUkAAAAALkA2npooTnhkFBVyXaA7WG2ugh8"></div>
+                        <input type="submit" value="Enviar" class="form__btn btn">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="ofrecemos" class="container ofrecemos ">
+            <div class="container__content">
+                <h2 class="container__title">¿Qué ofrecemos?</h2>
+                <div class="container__box">
+                    <div class="container__boxes">
+                        <img class="container__boxes--img" src="./img/Icono 1.png" alt="icono">
+                        <h3 class="container__boxes--title">Consultoría de procesos</h3>
+                        <p class="container__boxes--p">¿Cuáles son los más aptos para RPA?</p>
+                    </div>
+                    <div class="container__boxes">
+                        <img class="container__boxes--img" src="./img/Icono 2.png" alt="icono">
+                        <h3 class="container__boxes--title">Prueba de concepto</h3>
+                        <p class="container__boxes--p">Introducción de RPA en la organización.</p>
+                    </div>
+                    <div class="container__boxes">
+                        <img class="container__boxes--img" src="./img/Icono 3.png" alt="icono">
+                        <h3 class="container__boxes--title">Desarrollo de robots</h3>
+                        <p class="container__boxes--p">A medida de las necesidades de la empresa.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container beneficios" id="beneficios">
+            <div class="container__content">
+                <h2 class="container__title">¿Qué beneficios tiene?</h2>
+                <ul class="container__list">
+                    <li>Reduce costos operativos</li>
+                    <li>Elimina errores humanos por olvidos, cansancio, aburrimiento</li>
+                    <li>Brinda una trazabilidad en la ejecución de las tareas</li>
+                    <li>Ofrece confianza, garantía y seguridad</li>
+                    <li>Optimiza los procesos</li>
+                    <li>Desempeña con más rapidez en la ejecución de las tareas</li>
+                    <li>Las personas pueden dedicarse a tareas de mayor valor agregado</li>
+                    <li>Soporta incrementos de trabajo, evitando contratar nuevo personal</li>
+                    <li>Trabaja 24/7, no se enferma, no falta, no necesita licencia</li>
+                    <li>No necesita ningún cambio en las aplicaciones existentes</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- <section id="equipo" class="container equipo">
+            <div class="container__content">
+                <h2 class="container__title">Nuestro equipo</h2>
+                <p class="container__paragraph">Trabajamos en equipo, con un equipo de 20 personas aproximadamente</p>
+                <div class="container__box">
+                    <div class="container__boxes">
+                        <img class="container__boxes--img" src="./img/Icono 1.png" alt="icono">
+                        <h3 class="container__boxes--title"><span>Gerardo</span><br> García</h3>
+                    </div>
+                    <div class="container__boxes">
+                        <img class="container__boxes--img" src="./img/Icono 2.png" alt="icono">
+                        <h3 class="container__boxes--title"><span>Pablo</span><br> Coppola</h3>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <section class="container rpa" >
+            <div class="container__content">
+                <h2 class="container__title">Robot RPA Works en acción</h2>
+                <p class="container__paragraph">La implementación de RPA hace los procesos basados en software más rápidos, eficientes y sin errores. Y además se disminuyen los costos.</p>
+                <div class="container__video">
+                    <iframe src="https://www.youtube.com/embed/Sp7rcfu-0lE?start=00&autoplay=1" 
+                            title="YouTube video player" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="container clientes" id="clientes">
+            <h2 class="container__title">La opinión de nuestros clientes</h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">Slide 1</div>
+                  <div class="swiper-slide">Slide 2</div>
+                  <div class="swiper-slide">Slide 3</div>
+                  <div class="swiper-slide">Slide 4</div>
+                  <div class="swiper-slide">Slide 5</div>
+                  <div class="swiper-slide">Slide 6</div>
+                  <div class="swiper-slide">Slide 7</div>
+                  <div class="swiper-slide">Slide 8</div>
+                  <div class="swiper-slide">Slide 9</div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+        </section> -->
+
+        <section class="container contacto" id="formulario">
+            <div class="container__content">
+                <div class="container__data">
+                    <h2 class="container__title">RPA (Robotic Process Automation)</h2>
+                    <p class="container__paragraph">Se trata de una tecnología en la que se desarrollan robots de software, los cuales interactúan con los distintos sistemas de información de la organización, efectuando las tareas y actividades que realizan los seres humanos, especialmente aquellas que son repetitivas y necesarias pero que no aportan valor al negocio.</p>
+                </div>
+                <div class="container__form">
+                    <form action="formulario.php" method="post">
+                        <input type="text" name="name" id="name" placeholder="Nombre y apellido" required>
+                        <input type="number" name="phone" id="phone" placeholder="Teléfono" required>
+                        <input type="email" name="email" id="email" placeholder="Mail" required>
+                        <input type="text" name="company" id="company" placeholder="Empresa" required>
+                        <div class="g-recaptcha" data-sitekey="6Lc0gxUkAAAAALkA2npooTnhkFBVyXaA7WG2ugh8"></div>
+                        <input type="submit" value="Enviar" class="form__btn btn">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+<!-- fin main -->
+<!-- inicio footer -->
+    <footer class="footer">
+        <section class="footer__img footer__container">
+            <p class="footer__paragraph">Dejá de trabajar como un robot. <br>Automatizá tus procesos con<br> verdaderos robots de software.</p>
+            <div class="footer__info">
+                <h2 class="footer__title">¿Te interesaría probar<br> o saber más de<br><span> nuestros servicios?</span> </h2>
+                <div class="footer__btns">
+                    <a class="footer__btns--primary btn" href="">Agendar una reunión</a>
+                    <a class="footer__btns--secondary btn" href="#contacto">Escribinos</a>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="footer__bottom footer__container">
+            <div class="footer__bottom--container">
+                <div class="footer__bottom--container--box">
+                    <h4>© 2022 RPA - WORKS | POR CÓPPOLA & GARCÍA</h4>
+                </div>
+                <div class="footer__bottom--container--box brand">
+                    <img class=".footer__bottom--brand" src="./img/Logo Coppola.png" alt="logo">
+                </div>
+                <div class="footer__bottom--container--box">
+                    <div class="footer__socials">
+                        <a href="https://www.instagram.com/rpa.works.cyg/" class="footer__socials--link" target="_blank">
+                            <img src="./img/instagram_icon.svg" alt="Instagrama logo" class="footer__socials--img">
+                        </a>
+                        <a href="https://www.linkedin.com/company/rpa-works/about/" class="footer__socials--link" target="_blank">
+                            <img src="./img/linkedin_icon.svg" alt="Linkedin logo" class="footer__socials--img">
+                        </a>
+                        <!-- <a href="" class="footer__socials--link"><img src="./img/whatsapp_icon.svg" alt="" class="footer__socials--img"></a> -->
+                    </div>
+                </div>
+            </div>
+            <a href="https://efectodigital.com.ar/" class="efdig-link" target="_blank">Desarrollado por Efecto Digital ®</a>
+        </section>
+    </footer>
+    <!-- fin footer -->
+
+    <script src="./scripts/header.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        
+          loop: true,
+          autoplay: true,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+</body>
+</html>
