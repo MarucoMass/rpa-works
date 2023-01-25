@@ -8,6 +8,7 @@ The order was made by [Efecto Digital](https://efectodigital.com.ar/).
 - Javascript.
 - Vanilla CSS.
 - Swiper Js.
+- Google recaptcha
 
 ### Deploy
 https://rpa-works.com/
